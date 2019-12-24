@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>830</width>
+    <height>100</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Конвертор длин</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>11</x>
+     <y>11</y>
+     <width>801</width>
+     <height>57</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_3">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QComboBox" name="input_step">
+        <item>
+         <property name="text">
+          <string>Метр</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Километр</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Дециметр</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Сантиметр</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Миллиметр</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Микрометр</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Нанометр</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Пикометр</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Фемтометр</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Лига</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Миля</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Ярд</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Дюйм</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Миля</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Морская миля</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Радиус Земли</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Радиус Солнца</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Световой месяц</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Световая минута</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Астрономическая единица</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Световой час</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Световые сутки</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Световая неделя</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Световой год</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Парсек</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QLineEdit" name="input"/>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QPushButton" name="res">
+      <property name="text">
+       <string>=</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_3">
+      <item>
+       <widget class="QComboBox" name="output_step">
+        <item>
+         <property name="text">
+          <string>Метр</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Километр</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Дециметр</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Сантиметр</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Миллиметр</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Микрометр</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Нанометр</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Пикометр</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Фемтометр</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Лига</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Миля</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Морская миля</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Ярд</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Дюйм</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Миля</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Радиус Земли</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Радиус Солнца</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Световой месяц</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Световая минута</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Астрономическая единица</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Световой час</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Световые сутки</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Световая неделя</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Световой год</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Парсек</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="output">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

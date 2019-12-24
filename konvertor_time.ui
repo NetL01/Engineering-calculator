@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>830</width>
+    <height>100</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Конвертор времени</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>10</y>
+     <width>809</width>
+     <height>57</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_3">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QComboBox" name="input_step">
+        <item>
+         <property name="text">
+          <string>Секунда</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Минута</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Час</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Сутки</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Неделя</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Месяц</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Год</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Милисекунда</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Миг</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Тик</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Фортнайт</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Академический час</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Терция</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Аттосекунда</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QLineEdit" name="input"/>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QPushButton" name="res">
+      <property name="text">
+       <string>=</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_4">
+      <item>
+       <widget class="QComboBox" name="output_step">
+        <item>
+         <property name="text">
+          <string>Секунда</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Минута</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Час</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Сутки</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Неделя</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Месяц</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Год</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Милисекунда</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Миг</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Тик</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Фортнайт</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Академический час</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Терция</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Аттосекунда</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="output">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

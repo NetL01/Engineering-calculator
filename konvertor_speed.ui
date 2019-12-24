@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>835</width>
+    <height>92</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Конвертор скоростей</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>10</y>
+     <width>811</width>
+     <height>59</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_3">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <item>
+         <widget class="QComboBox" name="input_step">
+          <item>
+           <property name="text">
+            <string>Метр</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Километр</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Дециметр</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Сантиметр</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Миллиметр</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Микрометр</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Нанометр</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Пикометр</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Фемтометр</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Лига</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Миля</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Ярд</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Дюйм</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Миля</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Морская миля</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>r Земли</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>r Солнца</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Свет. месяц</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Свет. минута</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>А. е.</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Свет. час</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Свет. сутки</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Свет. неделя</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Свет. год</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Парсек</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label">
+          <property name="minimumSize">
+           <size>
+            <width>223</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>/</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="input_step_2">
+          <item>
+           <property name="text">
+            <string>Секунда</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Минута</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Час</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Сутки</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Неделя</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Месяц</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Год</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Милисекунда</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Миг</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Тик</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Фортнайт</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Академ. час</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Терция</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Аттосекунда</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QLineEdit" name="input"/>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QPushButton" name="res">
+      <property name="text">
+       <string>=</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_5">
+        <item>
+         <widget class="QComboBox" name="output_step">
+          <item>
+           <property name="text">
+            <string>Метр</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Километр</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Дециметр</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Сантиметр</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Миллиметр</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Микрометр</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Нанометр</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Пикометр</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Фемтометр</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Лига</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Миля</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Морская миля</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Ярд</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Дюйм</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Миля</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string> r Земли</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>r Солнца</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Свет. месяц</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Свет. минута</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>А. е.</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Свет. час</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Свет. сутки</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Свет. неделя</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Свет. год</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Парсек</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_2">
+          <property name="minimumSize">
+           <size>
+            <width>223</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>/</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="output_step_2">
+          <item>
+           <property name="text">
+            <string>Секунда</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Минута</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Час</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Сутки</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Неделя</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Месяц</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Год</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Милисекунда</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Миг</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Тик</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Фортнайт</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Академ. час</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Терция</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Аттосекунда</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QLabel" name="output">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
