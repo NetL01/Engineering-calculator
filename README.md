@@ -1,1 +1,1 @@
-# Nikeshin_pyqt5
+# pyqt5
